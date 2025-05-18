@@ -5,7 +5,8 @@ layout: default
 <div class="posts">
 
   {% assign counter = 0 %}
-  {% for post in site.posts %}
+  {% assign sorted_posts = site.posts | sort: "date" %}
+  {% for post in sorted_posts %}
     {% assign counter = counter | plus: 1 %}
 
     <article class="post">
