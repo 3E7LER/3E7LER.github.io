@@ -76,36 +76,48 @@ small, blockquote {
   font-weight: 300;
 }
 
-/* ========== 博客布局结构样式 ========== */
+
+/* ========== 博客结构布局样式 ========== */
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 1rem;
 }
+
 .wrapper-masthead {
   padding: 2rem 0;
 }
+
 .wrapper-footer {
   padding: 2rem 0;
   margin-top: 3rem;
   background-color: #f7f7f7;
 }
+
 .masthead:after {
   content: "";
   display: table;
   clear: both;
 }
-.site-avatar img {
-  width: 80px;
-  height: auto;
-  border-radius: 50%;
+
+.site-info {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
 }
+
+nav {
+  float: right;
+  margin-top: 30px;
+}
+
 nav a {
   margin-left: 20px;
   text-decoration: none;
   color: #444;
   font-weight: bold;
 }
+
 nav a:hover {
   color: #000;
 }
