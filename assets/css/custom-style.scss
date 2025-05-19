@@ -1,1 +1,50 @@
+/* ========== 英文字体 Playpen Sans Deva ========== */
+@font-face {
+  font-family: 'PlaypenSans';
+  src: url('/assets/fonts/PlaypenSansDeva-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'PlaypenSans';
+  src: url('/assets/fonts/PlaypenSansDeva-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'PlaypenSans';
+  src: url('/assets/fonts/PlaypenSansDeva-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
 
+/* ========== 日文字体 Noto Serif JP ========== */
+@font-face {
+  font-family: 'NotoSerifJP';
+  src: url('/assets/fonts/NotoSerifJP-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'NotoSerifJP';
+  src: url('/assets/fonts/NotoSerifJP-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NotoSerifJP';
+  src: url('/assets/fonts/NotoSerifJP-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+/* ========== 中文字体 Noto Serif SC ========== */
+@font-face {
+  font-family: 'NotoSerifSC';
+  src: url('/assets/fonts/NotoSerifSC-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'NotoSerifSC';
+  src: url('/assets/fonts/NotoSerifSC-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'NotoSerifSC';
+  src: url('/assets/fonts/NotoSerifSC-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
