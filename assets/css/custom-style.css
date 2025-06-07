@@ -98,5 +98,8 @@ body {
   color: #ffffff; /* 可选：如果背景较亮，设置字体为白色以增强可读性 */
 }
 
+body {
+  background-color: #20B2AA !important;
 }
+
 
