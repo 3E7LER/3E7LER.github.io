@@ -92,3 +92,11 @@ blockquote p,
   text-indent: 0;
 }
 
+/* ========== 设置全站背景颜色 ========== */
+body {
+  background-color: #20B2AA;
+  color: #ffffff; /* 可选：如果背景较亮，设置字体为白色以增强可读性 */
+}
+
+}
+
