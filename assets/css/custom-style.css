@@ -98,11 +98,13 @@ body {
   color: #f7f7f7;
 }
 
-.wrapper {
-  max-width: 860px;              /* 最大宽度限制，不让内容太宽，提升可读性 */
-  margin: 2rem auto;             /* 上下 2rem 间距，左右自动居中 */
-  padding: 2rem;                 /* 内边距，让文字不贴边 */
-  background-color: rgba(255,255,255,0.05);  /* 淡白半透明背景，像卡片 */
-  border-radius: 12px;           /* 圆角边缘，柔和卡片边框 */
+/* ========== 设置博客正文内容卡片化 ========== */
+.container {
+  max-width: 860px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(255,255,255,0.05);
+  border-radius: 12px;
 }
+
 
