@@ -95,16 +95,17 @@ blockquote p,
 /* ========== 设置全站背景颜色 ========== */
 body {
   background-color: #20B2AA !important;
-  color: #f7f7f7;
+  color: #f7f7f7 !important;
 }
 
-/* ========== 设置博客正文内容卡片化 ========== */
-.container {
-  max-width: 860px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background-color: rgba(255,255,255,0.05);
-  border-radius: 12px;
+/* ========== 让正文容器呈现“卡片感”并居中 ========== */
+#main.container {
+  max-width: 860px !important;
+  margin: 2rem auto !important;
+  padding: 2rem !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border-radius: 12px !important;
+  box-sizing: border-box;
 }
 
 
