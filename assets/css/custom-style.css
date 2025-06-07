@@ -98,14 +98,4 @@ body {
   color: #f7f7f7 !important;
 }
 
-/* ========== 让正文容器呈现“卡片感”并居中 ========== */
-#main.container {
-  max-width: 860px !important;
-  margin: 2rem auto !important;
-  padding: 2rem !important;
-  background-color: rgba(255, 255, 255, 0.05) !important;
-  border-radius: 12px !important;
-  box-sizing: border-box;
-}
-
 
