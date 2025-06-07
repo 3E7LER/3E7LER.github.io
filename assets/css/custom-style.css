@@ -86,3 +86,9 @@ p {
   text-indent: 2em;
 }
 
+blockquote p,
+.quote-block p,
+.no-indent p {
+  text-indent: 0;
+}
+
