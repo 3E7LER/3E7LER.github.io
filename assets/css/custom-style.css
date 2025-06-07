@@ -82,4 +82,7 @@ small, blockquote {
   border-radius: 50%;
 }
 
+p {
+  text-indent: 2em;
+}
 
