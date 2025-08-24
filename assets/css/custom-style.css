@@ -18,25 +18,7 @@
   font-display: swap;
 }
 
-/* ========== 日文字体 Noto Serif JP ========== */
-@font-face {
-  font-family: 'NotoSerifJP';
-  src: url('/assets/fonts/NotoSerifJP-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'NotoSerifJP';
-  src: url('/assets/fonts/NotoSerifJP-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'NotoSerifJP';
-  src: url('/assets/fonts/NotoSerifJP-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-display: swap;
-}
+
 
 /* ========== 中文字体 Noto Serif SC ========== */
 @font-face {
@@ -60,7 +42,7 @@
 
 /* ========== 全局应用字体 ========== */
 body {
-  font-family: "PlaypenSans", "NotoSerifJP", "NotoSerifSC", "Microsoft YaHei", "PingFang SC", serif;
+  font-family: "PlaypenSans", "NotoSerifSC", "Microsoft YaHei", "PingFang SC", serif;
   font-weight: 400 !important;
   font-size: 16px;
   line-height: 1.7;
